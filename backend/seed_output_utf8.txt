@@ -1,0 +1,13 @@
+﻿
+> hospital-rdv-backend@1.0.0 seed
+> ts-node src/utils/seed.ts
+
+2026-03-13 03:04:51 [[32minfo[39m]: Connected to MongoDB for seeding...
+2026-03-13 03:04:52 [[32minfo[39m]: Cleared existing seed data
+2026-03-13 03:04:52 [[32minfo[39m]: Γ£à Users created
+2026-03-13 03:04:53 [[31merror[39m]: MongoServerError: E11000 duplicate key error collection: test.patients index: dossierNumber_1 dup key: { dossierNumber: "DOS-000001" }
+    at InsertOneOperation.handleOk (C:\Users\U\.gemini\antigravity\scratch\hospital-rdv-app\backend\node_modules\mongodb\src\operations\insert.ts:79:13)
+    at tryOperation (C:\Users\U\.gemini\antigravity\scratch\hospital-rdv-app\backend\node_modules\mongodb\src\operations\execute_operation.ts:290:26)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async executeOperation (C:\Users\U\.gemini\antigravity\scratch\hospital-rdv-app\backend\node_modules\mongodb\src\operations\execute_operation.ts:119:12)
+    at async Collection.insertOne (C:\Users\U\.gemini\antigravity\scratch\hospital-rdv-app\backend\node_modules\mongodb\src\collection.ts:294:12)

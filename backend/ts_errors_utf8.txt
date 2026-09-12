@@ -1,0 +1,5 @@
+﻿src/middlewares/roleGuard.ts(26,43): error TS2339: Property 'SENIOR' does not exist on type 'typeof Role'.
+src/middlewares/roleGuard.ts(27,43): error TS2339: Property 'SENIOR' does not exist on type 'typeof Role'.
+src/middlewares/roleGuard.ts(27,56): error TS2339: Property 'JUNIOR' does not exist on type 'typeof Role'.
+src/middlewares/roleGuard.ts(29,44): error TS2339: Property 'SENIOR' does not exist on type 'typeof Role'.
+src/middlewares/roleGuard.ts(29,57): error TS2339: Property 'JUNIOR' does not exist on type 'typeof Role'.

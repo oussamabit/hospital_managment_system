@@ -1,0 +1,17 @@
+﻿
+> hospital-rdv-backend@1.0.0 seed
+> ts-node src/utils/seed.ts
+
+2026-03-19 02:55:10 [[32minfo[39m]: Connected to MongoDB for seeding...
+2026-03-19 02:55:11 [[32minfo[39m]: Cleared existing seed data
+2026-03-19 02:55:12 [[32minfo[39m]: Ô£à Specialized Users and Services created
+2026-03-19 02:55:13 [[32minfo[39m]: Ô£à Patients and Medical Dossiers created
+2026-03-19 02:55:13 [[32minfo[39m]: Ô£à RendezVous created
+2026-03-19 02:55:13 [[32minfo[39m]: 
+­ƒÅÑ ===== NEW ARCHITECTURE SEED COMPLETE =====
+2026-03-19 02:55:13 [[32minfo[39m]: Test credentials (all passwords: Password123!):
+2026-03-19 02:55:13 [[32minfo[39m]:   SENIOR (MEDECIN)  ÔåÆ senior@hospital.fr
+2026-03-19 02:55:13 [[32minfo[39m]:   JUNIOR (MEDECIN)  ÔåÆ junior@hospital.fr
+2026-03-19 02:55:13 [[32minfo[39m]:   SECRETAIRE        ÔåÆ secretaire@hospital.fr
+2026-03-19 02:55:13 [[32minfo[39m]: ============================================
+

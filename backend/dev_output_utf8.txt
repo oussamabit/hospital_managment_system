@@ -1,0 +1,74 @@
+﻿
+> hospital-rdv-backend@1.0.0 dev
+> ts-node-dev --respawn --transpile-only src/index.ts
+
+[INFO] 03:06:30 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.2, typescript ver. 5.9.3)
+node.exe : Error: 
+listen EADDRINUSE: 
+address already in use 
+:::5000
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : 
+NotSpecified: (Err    
+or: listen E... in use 
+    :::5000:String) 
+[], R    emoteException
+    + 
+FullyQualifiedErrorI   
+ d : NativeCommandError
+ 
+    at Server.setupList
+enHandle [as _listen2] 
+(node:net:1937:16)
+    at listenInCluster 
+(node:net:1994:12)
+    at Server.listen 
+(node:net:2099:7)
+    at Function.listen 
+(C:\Users\asus\OneDrive
+\Bureau\usto\ING4\S2\Ho
+spital\Hospital-Managem
+ent\backend\node_module
+s\express\lib\applicati
+on.js:635:24)
+    at 
+Object.<anonymous> (C:\
+Users\asus\OneDrive\Bur
+eau\usto\ING4\S2\Hospit
+al\Hospital-Management\
+backend\src\index.ts:63
+:5)
+    at 
+Module.<anonymous> (nod
+e:internal/modules/cjs/
+loader:1554:14)
+    at Module._compile 
+(C:\Users\asus\OneDrive
+\Bureau\usto\ING4\S2\Ho
+spital\Hospital-Managem
+ent\backend\node_module
+s\source-map-support\so
+urce-map-support.js:568
+:25)
+    at 
+Module.m._compile (C:\U
+sers\asus\AppData\Local
+\Temp\ts-node-dev-hook-
+9619257725373143.js:69:
+33)
+    at node:internal/mo
+dules/cjs/loader:1706:1
+0
+    at require.extensio
+ns..jsx.require.extensi
+ons..js (C:\Users\asus\
+AppData\Local\Temp\ts-n
+ode-dev-hook-9619257725
+373143.js:114:20)
+[ERROR] 03:06:36 Error: listen EADDRINUSE: address already in use :::5000
