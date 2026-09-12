@@ -1,0 +1,8 @@
+﻿src/pages/CreateEditRdv.tsx(41,30): error TS2352: Conversion of type 'CreateRdvDto' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Index signature for type 'string' is missing in type 'CreateRdvDto'.
+src/pages/CreateEditRdv.tsx(42,25): error TS2352: Conversion of type 'CreateRdvDto' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Index signature for type 'string' is missing in type 'CreateRdvDto'.
+src/pages/CreateEditRdv.tsx(210,30): error TS2352: Conversion of type 'CreateConsultationDto' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Index signature for type 'string' is missing in type 'CreateConsultationDto'.
+src/pages/CreatePatient.tsx(16,63): error TS2352: Conversion of type 'CreatePatientDto' to type 'Record<string, unknown>' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+  Index signature for type 'string' is missing in type 'CreatePatientDto'.
